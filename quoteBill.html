@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Get A Quote</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav">
+        <ul id="navlist">
+            <li><img src="logo.jpg" width="100" height="50" /></li>
+            <li><button type="homePage"><a href="index.html">Welcome to Burn The Bills</a></button></li>
+            <li><button type="eventsGifts"><a href="eventsGifts.html">Events and Gifts</a></button></li>
+            <li><button type="grocery"><a href="grocery.html">Grocery</a></button></li>
+            <li><button type="energyBills"><a href="energyBills.html">Energy Bills</a></button></li>
+
+        </ul>
+    </div>
+
+    <div class="main" id="Quote1">
+
+    <h1> Get A Quote </h1>
+
+    <form action="mailto:favourekengwu@gmail.com" method="post" enctype="text/plain">
+        <div>
+        <fieldset id='details'>
+            <!-- For Quote Form -->
+            <div id="myForm">
+            <h4 class="p-details">Enter your personal detail :</h4>
+
+            <div>Full Name: &nbsp;
+                <input type="text" id="fullName" placeholder="Enter Full Name">
+            </div>
+
+            <div>Email: &nbsp;
+                <input type="email" id="email" placeholder="Enter Email">
+            </div>
+
+            <div>Telephone Number: &nbsp;
+                <input type="text" id="phoneName" placeholder="Enter Your Telephone Number">
+            </div>
+
+            <div>Subject: &nbsp;
+                <select id="subject">
+                <option value="">Select an option...</option>
+                <option value="Energy Bills">Energy Bills</option>
+                <option value="Grocery">Grocery</option>
+                <option value="Events and Gifts">Events and Gifts</option>
+                <option value="Other">Other</option>
+                </select>
+            </div>
+            <div>Please Provide Details: &nbsp;
+                <textarea id="comment" rows="5" cols="20"> </textarea>
+            </div>
+            </div>
+
+            <!-- For Form preview -->
+            <div id="myFormPreview" style="display: none">
+            <hr>
+            <h4>Form Preview:</h4>
+            <div>
+                Full Name: <b><span id="fullNameLabel"></span></b>
+            </div>
+            <div>
+                Email: <b><label id="emailLabel"></label></b>
+            </div>
+            <div>
+                Telephone Number: <b><label id="numberLabel"></label></b>
+            </div>            
+            <div>
+                Subject: <b><label id="subjectLabel"></label></b>
+            </div>
+            <div>
+                Please Provide Details: <b><label id="commentLabel"></label></b>
+            </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div id="queryDetail" style="display:none">
+            <button type="Button" id="editForm" onclick="onclickEditForm()">Edit</button> &nbsp;
+            <button type="Submit" id="submitForm">Summit form</button>
+            </div>
+            <button type="Button" id='viewQueryForm' onclick="onclickViewQueryForm()">View Query Form</button>
+        </fieldset>
+        </div>
+    </form>
+
+
+
+    <script src="script.js">    </script>
+    <br>
+    <br>
+
+
+
+    <div>
+        <img src="up_arrow.png" height="15" alt="back to top image">
+        <a href="#top">Back To Top</a> <br>
+        <a href="aboutUs.html">About Us</a>
+    </div>
+    </div>
+</body>
+
+</html>

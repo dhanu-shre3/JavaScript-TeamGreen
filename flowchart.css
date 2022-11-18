@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+html, * {
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    margin: auto;
+}
+
+
+.primary-navigation{
+    position: fixed;
+    background: hsl(0, 0%, 98%);
+    height: 50px;
+    width: 100%;   
+}
+
+
+.primary-nav-list{
+    color: hsl(270, 5%, 69%);
+    display: inline-block; 
+    align-items: center;
+    /* overflow: hidden;  */
+    text-align: right;
+    padding-top: 0.9%;
+
+}
+
+.primary-nav-item{
+    color: hsl(191, 9%, 64%);
+    align-items: right;
+    font-size: 1rem;
+    padding-right: 10px;
+
+}
+.primary-nav-item:hover {
+    box-shadow: 0 0 10px hsl(284, 100%, 66%), 0 0 20px hsl(284, 100%, 66%), 0 0 30px hsl(284, 100%, 66%);
+}
+
+a{
+    color: hsl(268, 48%, 72%);
+}
+main{
+    display: block;
+}
+.pg1{
+   
+    padding: 0px 40px 0px 40px;
+    padding-top: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+.pg1 h1{
+    font-size: 5rem;
+    margin-left: 60px;
+    padding-top: 70px;
+}
+
+.pg1 p{
+    font-size: 1rem;
+    margin-right: 60px;
+     color: rgb(2, 2, 2); 
+}
+.column {
+    
+    float: left;
+    padding: 10px;
+    height: 450px;  
+  }
+  
+  .left {
+    width: 40%;
+    padding: 30px 40px 40px 40px;
+
+  }
+  
+  .right {
+    width: 60%;
+    padding-top: 100px;
+    padding: 100px 40px 40px 60px;
+  }
+
+  figcaption{
+    padding: 20px;
+  }
+
+  @media(max-width: 800px) {
+    .column {
+        width: 100%;
+    }
+    
+
+}

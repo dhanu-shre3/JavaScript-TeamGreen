@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+html, * {
+    /* box-sizing: border-box; */
+    font-family: 'Manrope', sans-serif;
+   
+}
+
+.heading{
+    color: rgb(53, 159, 124);
+    padding-top: 100px;
+    font-style: italic;
+    text-align: center;
+    /* background-color: lightblue;  */
+}
+h2{
+    text-align: center;
+}
+#navlist li {
+    display: Inline;
+    padding-right: 20px;
+}
+
+button {
+    font-size: 1em;
+}
+
+a:link { color: green; } 
+a:visited { color: black; } 
+a:hover { color: blue; background-color: lightblue; }
+a:active { color: red; }
+
+#nav {
+    background-color: lightblue;
+    width: 100%;  
+    position: fixed; 
+    top: 0;  
+    left: 0; 
+} 
+.p1{
+    margin-top: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.main {
+    margin-top:10%;
+    }
+
+a {
+
+text-decoration: none;
+}
+
+#page1 {
+    font-weight:900;
+    font-size: 1.9em;
+}
+
+#backto {
+    text-decoration: underline;
+    text-align: right;
+}
+
+#myForm{
+    width: 30%;
+    text-align:center;	
+    text-align: justify;
+    top: 0;	
+}
+.p-details{
+    text-align: center;
+    
+}
+
+#Quote1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 400px;
+    width: 100%;
+    background: lightpink;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(255, 0, 0, 0.2);
+}
+.button{
+    padding: 10px;
+}
+button{
+    align-items: center;
+}
+.getquote{
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    color: black;
+    font-style: italic;
+    background-color: rgb(61, 160, 61);
+    border-radius: 20px;
+}
+
+footer{
+    padding: 10px 100px;
+    background-color: rgb(254, 254, 254);
+    
+  }

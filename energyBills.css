@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+html, * {
+    /* box-sizing: border-box; */
+    font-family: 'Manrope', sans-serif;
+   
+}
+
+#navlist li {
+    display: Inline;
+    padding-right: 20px;
+}
+
+button {
+    font-size: 1em;
+}
+
+a:link { color: green; } 
+a:visited { color: black; } 
+a:hover { color: blue; background-color: lightblue; }
+a:active { color: red; }
+
+#nav {
+    background-color: lightblue;
+    width: 100%;  
+    position: fixed; 
+    top: 0;  
+    left: 0; 
+} 
+
+.main {
+    margin-top:100px;
+    }
+
+a {
+
+text-decoration: none;
+} 
+
+#page1 {
+    font-weight:900;
+    font-size: 1.9em;
+}
+
+#backto {
+    text-decoration: underline;
+    text-align: right;
+}
+
+#myForm{
+    width:30%;
+    text-align:center;		
+}
+
+#Quote1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 400px;
+    width: 100%;
+    background: lightpink;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(255, 0, 0, 0.2);
+}
+
+.link{
+    color: rgb(159, 229, 159);
+    font-style: italic;
+    
+}
+
+main{
+    padding: 10% 100px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  footer{
+    padding: 100px;
+    
+  }
